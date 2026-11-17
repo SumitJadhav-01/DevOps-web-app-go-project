@@ -7,22 +7,22 @@ import (
 
 func homePage(w http.ResponseWriter, r *http.Request) {
 	// Render the home html page from static folder
-	http.ServeFile(w, r, "static/home.html")
+	http.ServeFile(w, r, "web-app/home.html")
 }
 
 func servicesPage(w http.ResponseWriter, r *http.Request) {
 	// Render the services html page
-	http.ServeFile(w, r, "static/services.html")
+	http.ServeFile(w, r, "web-app/services.html")
 }
 
 func aboutPage(w http.ResponseWriter, r *http.Request) {
 	// Render the about html page
-	http.ServeFile(w, r, "static/about.html")
+	http.ServeFile(w, r, "web-app/about.html")
 }
 
 func contactPage(w http.ResponseWriter, r *http.Request) {
 	// Render the contact html page
-	http.ServeFile(w, r, "static/contact.html")
+	http.ServeFile(w, r, "web-app/contact.html")
 }
 
 func main() {
