@@ -22,6 +22,6 @@ go.work
 go.work.sum
 
 # Go compiled application binaries
-webappgo
+/webappgo
 bin/
 dist/
