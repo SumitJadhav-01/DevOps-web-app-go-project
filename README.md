@@ -2,8 +2,13 @@
 
 A Go-based web application deployed on **AWS EKS** using Docker, Kubernetes, Helm, GitHub Actions, and Argo CD. This project demonstrates an end-to-end DevOps workflow, from source-code validation and container image publishing to GitOps-based Kubernetes deployment
 
-# Documentation and project Implementation.
- ![End_to_End_Documentation.docx(End_to_End_Documentation.docx)
+## 📚 End-to-End Project Documentation
+
+For the complete step-by-step implementation, configuration, deployment, verification, and troubleshooting details, see the full project documentation:
+
+📄 **[View End-to-End Documentation](./End_to_End_Documentation.docx)**
+
+> The documentation covers the complete implementation of this DevOps project from application setup to deployment, monitoring, verification, and troubleshooting.
 
 ## Project Overview
 
